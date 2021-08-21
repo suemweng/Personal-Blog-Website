@@ -1,16 +1,13 @@
+@import "header.css";
+@import "nav.css";
+@import "footer.css";
+
 /* Desktop first */
 
 p{
   font-size: 110%;
 }
-.nav a{
-  text-decoration:none;
-  color: black;
-}
 
-.nav a:hover{
-  text-decoration: underline;
-}
 
 h1{
   text-align: center;
@@ -45,102 +42,17 @@ li{
       
       margin-top: 10px;
       
-      }
+}
   
-.header{
-      background-color: #C6CAD6;
-      background: linear-gradient(grey,white,grey);
-      grid-area:hd;
-      display: flex;
-      flex-direction:column;
-      justify-content: center;
-      align-items:center;
-      word-wrap: break-word;
-    }
 
-
-.nav{
-      grid-area: nav;
-      background:linear-gradient( white, grey);
-      margin-right:10px;
-    }
-
-.nav ul{
-     list-style-type: none;
-     font-size: x-large;
-}
-
-.selected{
-      font-weight:bold;
-      color:rgb(255,82,82);
-}
 .content{
     grid-area: main;
     padding: 10px;
-    }
+}
 
 
-
-.header1{
-        margin: 0px;
-        font-size: 40pt;
-        border-bottom-width: 12px;
-        border-bottom-style: solid;
-        border-bottom-color: rgb(255,82,82);
-        text-align: center;
-    }
-
-.header2{
-        margin: 0px;
-        font-size: 30pt;
-        font-family: Oswald;
-        text-align:center;
-        
-    }
-
-.footer{
-      grid-area: ft;  
-      padding: 10px;
-      background:linear-gradient(grey, white);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-    }
-
-.fa {
-      padding: 10px;
-      font-size: 20px;
-      width: 20px;
-      text-align: center;
-      text-decoration: none;
-      margin: 10px 10px;
-      border-radius: 50%;
-    }
-    
-.fa:hover {
-        opacity: 0.7;
-        color:rgb(255,82,82);
-    }
-    
-.fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-    
-.fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
-
-.fa-linkedin {
-      background: #007bb5;
-      color: white;
-    }
-
-  /* Mobile Screen */
-  @media(max-width:900px){
+/* Mobile Screen */
+@media(max-width:900px){
 
     .container{
           display:grid;
@@ -167,4 +79,4 @@ li{
         justify-content: space-around;
         padding-inline-start: 0px;
     }
-  }
+}

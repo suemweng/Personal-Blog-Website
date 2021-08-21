@@ -1,0 +1,27 @@
+.header{
+    background-color: #C6CAD6;
+    background: linear-gradient(grey,white,grey);
+    grid-area:hd;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    word-wrap: break-word;
+}
+
+.header1{
+    margin: 0px;
+    font-size: 40pt;
+    border-bottom-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255,82,82);
+    text-align: center;
+}
+
+.header2{
+    margin: 0px;
+    font-size: 30pt;
+    font-family: Oswald;
+    text-align:center;
+    
+}

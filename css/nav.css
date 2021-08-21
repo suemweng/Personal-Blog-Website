@@ -1,0 +1,26 @@
+.nav{
+    grid-area: nav;
+    background:linear-gradient( white, grey);
+    margin-right:10px;
+}
+
+.nav ul{
+   list-style-type: none;
+   font-size: x-large;
+   
+}
+
+.nav a{
+text-decoration:none;
+color: black;
+
+}
+
+.nav a:hover{
+text-decoration: underline;
+}
+
+.selected{
+    font-weight:bold;
+    color:rgb(255,82,82);
+}
