@@ -16,6 +16,10 @@ li{
   
 }
 
+figure{
+  margin: 0px;
+}
+
 .container{
     
     display:grid;
